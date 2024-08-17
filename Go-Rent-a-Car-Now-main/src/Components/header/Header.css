@@ -1,0 +1,266 @@
+/*  ================= Header Top part ================*/
+.header {
+    background-color: #16167D;
+    color: aliceblue;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 7px;
+}
+
+.header_top_left {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.phone {
+    margin: 0px 4px 0px 15px;
+}
+
+.header_top_help i {
+    background-color: aliceblue;
+    color: black;
+    padding: 2px 3px;
+    border-radius: 30%;
+}
+
+.header_top_right {
+    display: inline-flexbox;
+}
+
+.header_top_right a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+.header_top_right a:hover {
+    color: #000000;
+    background-color: white;
+    padding: 4px 6px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+/*  ================= Header Middle part ================*/
+
+.header_middle {
+   
+    background-color: aqua;
+    color: #16167D;
+}
+
+.header_middle_top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px 0px;
+
+}
+
+.logo_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h1 a span {
+    padding-left: 4px;
+    color: #16167D;
+    font-size: 1.7rem;
+}
+
+.logo h1 a i {
+    color: #16167D;
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+.logo h1 a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.logo h1 {
+    color: #16167D;
+    line-height: 1.5rem;
+}
+
+.header_location {
+    display: flex;
+    justify-content: center;
+    column-gap: .4rem;
+}
+
+.header_location span i {
+    font-size: 2.7rem;
+
+}
+
+.header_location_content h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+.header_location_content h6 {
+    font-weight: 600;
+}
+
+.header_call_btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #16167D;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.header_btn a {
+    display: flex;
+    align-items: center;
+    column-gap: 0.4rem;
+    color: aliceblue;
+    text-decoration: none
+}
+
+/* <=============== nav-part=============> */
+
+.navigation_warpper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main_navbar {
+    padding: 5px 0px;
+    background-color: #16167D;
+}
+
+.moblie_menu {
+    color: #fff;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.moblie_menu {
+    display: none;
+}
+
+.menu {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 2.7rem;
+
+}
+
+.nav_item {
+    color: #fff;
+    text-decoration: none;
+    transition: .3s;
+    /* padding: 2px 20px; */
+}
+
+.nav_item:hover {
+    padding: 2px 20px;
+    font-weight: 600;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    text-decoration: none;
+
+
+}
+
+.search_box {
+    border: 1px solid rgb(9, 9, 69);
+    padding: 7px 12px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    background-color: rgb(9, 9, 69);
+}
+
+.search_box input::placeholder {
+    font-size: 1rem;
+}
+
+.search_box input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+.search_box span i {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.nav_active {
+    padding: 2px 20px;
+    font-weight: 600;
+    background-color: #f7f7ff;
+    color: #000000;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+@media only screen and (max-width:768px){
+    .header_top,
+    .header_middle_top,
+    .nav_right{
+        display: none;
+    }
+    .moblie_menu{
+        display: block;
+    }
+    .navigation{
+        background: rgb(0,13,107,0.6);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        display: none;
+    }
+    .menu{
+        width: 250px;
+        height: 100%;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 2rem;
+        justify-content: center;
+    }
+    .menu a{
+        color: #16167D;
+        font-weight: 600;
+        font-size: 0.9rem;
+    }
+    .menu_active{
+        display: block;
+    }
+}

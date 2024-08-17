@@ -1,0 +1,40 @@
+
+
+.achivement{
+    background-image: linear-gradient(190deg, rgb(10, 36, 57) 50%, rgb(7, 7, 7) calc(50% + 2px)) ;
+    margin-top: 20px;
+}
+.achivement_content{
+    align-items: center;
+    color: #ffffff;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.achevemente_text h3{
+    font-size: 2.5rem;
+    margin-bottom: 0rem !important;
+    font-weight: 600;
+}
+.achevemente_text p{
+    font-size: 1.2rem;
+    margin-bottom: 0rem !important;
+}
+
+@media only screen and (max-width:480px) {
+    .achivement_content{
+        gap: 2rem;
+    }
+    .achevemente_text h3{
+        font-size: 2.5rem;
+        margin-bottom: 0rem !important;
+        font-weight: 600;
+    }
+    .achevemente_text p{
+        font-size: 1.2rem;
+        margin-bottom: 0rem !important;
+    }
+}
+
+

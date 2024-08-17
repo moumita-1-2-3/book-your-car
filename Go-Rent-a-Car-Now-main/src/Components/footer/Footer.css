@@ -1,0 +1,112 @@
+.footer{
+    background-color: #16167D;   
+    padding-bottom: 15px;  
+}
+.footer_contect{
+    padding-top: 50px ;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 30px;
+    width: 100%;
+}
+.footer_logo {
+   color: #fff ;
+text-decoration: none;
+    display: flex;
+    text-align: flex-end;
+}
+
+.footer_logo_discription a:hover{
+color: rgb(72, 221, 221);
+}
+
+.footer_logo i{
+font-size: 3.5rem;
+font-weight: 400;
+}
+.footer_logo span{
+    font-size: 28px;
+    font-weight: 500;
+}
+.footer_logo_content{
+    color: #e5dddd;
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+.footer_link_title_head_office{
+    color:  #ffffff;
+    margin-bottom: 20px;
+}
+.footer_link_title{
+    color:  #ffffff;
+}
+
+.quick_link{
+    border: none !important;
+    background: transparent !important;
+}
+.quick_link a{
+    color: #e5dddd; 
+    text-decoration: none !important;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.quick_link a:hover{
+    background-color: #fff;
+    color: #16167D;
+    padding: 0px  30px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.footer_link_title{
+    color:  #ffffff;
+}
+.office_info{
+    color: #e5dddd; 
+    font-weight: 500;
+}
+.newletter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+    background: rgb(9, 9, 69);
+    border: 1px solid rgb(9, 9, 69);
+    border-radius: 50px;
+}
+.newletter input{
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    outline: none;
+}
+.newletter span{
+   color: #fff;
+    padding: 0px 4px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.section_discription{
+    margin-top: 20px;
+    color: #e5dddd;
+}
+.section_discription i{
+    padding: 4px;
+}
+.footer_bottom{
+    color: #e5dddd; 
+    padding-top: 20px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top:  2px solid #06063e ;
+    font-style: 30px;
+}
+
+@media only screen and (max-width:480px) {
+  .newletter{
+    margin-bottom: 20px;
+  }
+}

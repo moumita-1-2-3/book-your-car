@@ -1,0 +1,131 @@
+.booking_from{
+    padding: 20px 30px 0px!important;
+    border-radius: 7px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.booking_group{
+    margin-bottom: 0px;
+    width: 100%;
+}
+.booking_from h2{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+    color:  #16167D;
+}
+.booking_from h4{
+        font-weight: 600;
+        color:  black;
+}
+.booking_group span{
+    font-size: 0.8rem;
+    color: #7c8a97;
+ }
+.booking_group input::placeholder{
+    color: #7c8a97;
+ }
+ 
+ .booking_group input{
+     border-radius: 5px;
+     border: 1px solid rgb(169, 169, 169);
+     padding:  8px 12px;
+     outline: none;
+     width: 100%;
+ }
+ .booking_group textarea{
+    border-radius: 5px;
+    border: 1px solid rgb(169, 169, 169);
+    padding:  8px 12px;
+    outline: none;
+    width: 100%;
+}
+.booking_group label{
+    margin-bottom: 3px;
+    font-weight: 400;
+    font-size: 1rem;
+    outline: none;
+    color: #000000;
+}
+.booking_from button{
+    background-color: #000b6b;
+    color: #fff;
+    padding: 10px 40px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.gender_group {
+    padding:  8px 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.gender_group input{
+   padding: 0px !important;
+}
+
+.traveller_information{
+    border-bottom: 1px solid rgb(169, 169, 169);
+    margin-top: 20px !important;
+}
+.traveller_information p{
+    
+    margin-bottom:  10px !important;
+}
+.traveller_information a{
+    text-decoration: none;
+}
+.pick_up{
+    margin-top: 20px !important;
+}
+.pick_up input{
+    margin-right: 1rem;
+}
+
+.read_section{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 7px;
+}
+
+
+.read_section_title {
+    border-radius: 7px 7px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    background-color: #ffffff;
+    padding: 10px 20px 10px!important;
+    border-bottom: 1px solid  rgb(169, 169, 169);
+}
+
+.read_section_title h4{
+    margin-bottom: 0px !important;
+    font-weight: 600;
+    color:  #16167D;
+    align-content: center;
+}
+.read_section_title i{
+    font-size: 1.5rem;
+}
+.booking_info_section {
+    padding: 20px 20px 0px!important;
+}
+.booking_from{
+    margin-bottom: 15px !important;
+}
+.booking_info h5{
+    font-size: 1.3rem;
+    font-size: 800;
+    color: #000000;
+    margin-bottom: 5px !important;
+}
+.booking_info p{
+    color: #3f3f3f;
+}
+ 
+
+.moblie{
+    display: none;
+}

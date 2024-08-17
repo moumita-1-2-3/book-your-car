@@ -1,0 +1,113 @@
+
+.from{
+    padding-top: 55px;
+    padding-bottom: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+ .form_group{
+width:30% ;
+}
+.form_group input::placeholder{
+   color: #7c8a97;
+}
+
+.form_group input{
+    border-radius: 5px;
+    border: 1px solid rgb(8, 8, 80);
+    padding:  8px 12px;
+    outline: none;
+    width: 100%;
+}
+
+.select_group{
+    width: 30%;
+}
+.select_group select{
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid rgb(8, 8, 80);
+    outline: none;
+    color: #7c8a97;
+}  
+.Journey_time::before{
+    color: #7c8a97;
+    content: 'Journey time:';
+margin-right: 0.8rem;
+}
+.find_car-btn{
+    border-radius: 5px;
+    background-color: #16167D;
+    color: #ffffff;
+    padding: 8px 15px;
+    width: 100%;
+    border: none;
+}
+@media only screen and (max-width:992px) {
+    .from{
+        padding: 20px 10px;
+    }
+    .form_group input, 
+    .select_group select{
+        padding: 7px 10px;
+        font-size: 1rem;
+    }
+    .form_group{
+        margin-bottom: 0px !important;
+        bottom: -100px;
+    }
+    .select_group{
+        width: 30%;
+    }
+}
+@media only screen and (max-width:768px) {
+   
+    .from{
+        padding: 20px 10px;
+    } 
+}
+
+@media only screen and (max-width:578px) {
+
+
+
+    .form_group{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .select_group{
+        width: 100%;
+        font-style: 0.9rem !important;
+    }
+    .form_group input{
+        font-style: 0.9rem !important;
+    }
+    .find_car-btn{
+        font-style: 0.8rem !important;
+    }
+}
+@media only screen and (max-width:480px) {
+
+    .form_group{
+        margin-bottom: 0px !important;
+        bottom: -100px;
+    }
+    .from{
+        padding: 10px 10px;
+    }
+    .find_car-btn{
+        border-radius: 5px;
+        background-color: #16167D;
+        color: #ffffff;
+        padding: 8px 15px;
+        width: 100%;
+        border: none;
+        font-size: 1rem;
+    }
+}
+
+
+

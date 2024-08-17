@@ -1,0 +1,92 @@
+.contact_button{
+    display: grid;
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+    z-index: 110;
+    gap: 0.2rem;
+    align-items: center;
+}
+.contact_button i{
+  vertical-align: middle;
+  color: #ffffff;
+  font-size: 1.9rem;
+}
+
+.contact_float{
+  background-color: #2ecc71;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 60px;
+    border-radius: 100%;
+    transition-duration: 0.4s;
+    animation: kreep 0.7s ease 2s infinite alternate;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}  
+.contact_float_call{
+  background-color: #2e6dcc;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 60px;
+  border-radius: 100%;
+  animation: wiggle 2.7s infinite;
+  transition-duration: 0.4s;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+/*Bounce*/
+@keyframes kreep {
+  0% {-webkit-transform: scale(1.1,.9);
+      transform: scale(1.1,.9);}
+ 50% { -webkit-transform: scale(.9,1.1) translateY(-.5rem)}
+ 70% { -webkit-transform: scale(1);
+       transform: scale(1);}
+}
+
+@keyframes wiggle {
+2% {
+  -webkit-transform: translateX(3px) rotate(2deg);
+  transform: translateX(3px) rotate(2deg);
+}
+4% {
+  -webkit-transform: translateX(-3px) rotate(-2deg);
+  transform: translateX(-3px) rotate(-2deg);
+}
+6% {
+  -webkit-transform: translateX(3px) rotate(2deg);
+  transform: translateX(3px) rotate(2deg);
+}
+8% {
+  -webkit-transform: translateX(-3px) rotate(-2deg);
+  transform: translateX(-3px) rotate(-2deg);
+}
+10% {
+  -webkit-transform: translateX(2px) rotate(1deg);
+  transform: translateX(2px) rotate(1deg);
+}
+12% {
+  -webkit-transform: translateX(-2px) rotate(-1deg);
+  transform: translateX(-2px) rotate(-1deg);
+}
+14% {
+  -webkit-transform: translateX(2px) rotate(1deg);
+  transform: translateX(2px) rotate(1deg);
+}
+16% {
+  -webkit-transform: translateX(-2px) rotate(-1deg);
+  transform: translateX(-2px) rotate(-1deg);
+}
+18% {
+  -webkit-transform: translateX(1px) rotate(0);
+  transform: translateX(1px) rotate(0);
+}
+20% {
+  -webkit-transform: translateX(-1px) rotate(0);
+  transform: translateX(-1px) rotate(0);
+}
+}

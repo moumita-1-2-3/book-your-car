@@ -1,0 +1,42 @@
+.car_detail{
+    margin: 10px 0px !important;
+    row-gap: 1rem;
+    display: flex;
+    align-items: center;
+}
+.car_detail_content h1{
+   color: #16167D;
+}
+.car_rating{
+    column-gap: 3rem;
+    display: flex;
+    margin-bottom: 20px;
+}
+.car_rating i{
+    color: #f9a826;
+}
+.car_rating h6{
+    font-size: 1.2rem;
+    color: #16167D;
+}
+.car_rating span{
+    font-size: 1rem;
+    color: #000000;
+}
+.car_detail_content  p{
+    font-size: 1rem;
+    color: #383636;
+}
+.car_detail_info{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.car_detail_info{
+   color: #383636;
+}
+.car_detail_info i{
+    color: #f9a826;
+    padding-right: 5px;
+ }
+

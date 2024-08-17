@@ -1,0 +1,460 @@
+.sign-in_section {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(7, 2, 66, 0.7);
+    transition: opacity 500ms;
+    z-index: 100;
+}
+
+.sign_in {
+    height: 100%;
+    margin: 40px auto;
+    width: 57%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 7px;
+    padding: 0px 50px;
+    align-items: center;
+}
+
+.sign_in  .close {
+    position: absolute;
+    top: 0px;
+    right:  35px;
+    transition: all 200ms;
+    font-size: 15px;
+font-weight: 400;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 0px 5px  0px 5px ;
+    padding: 0px 10px;
+    z-index: 100;
+  }
+  .sign_in  .close:hover {
+    color: #000000;
+    background-color: #ffffff;
+  }
+
+
+.sign_from {
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    text-align: center;
+}
+
+.sign_in_form {
+    padding: 20px 35px;
+}
+
+.sign_option {
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+.sign_in_form h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #999a9c;
+    margin-bottom: 20px;
+}
+
+.sign_option_google {
+    padding: 5px 20px 5px 0px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #ab1b1b;
+}
+
+.sign_option_google i {
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-right: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.sign_option_google a {
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+.sign_option_facebook {
+    padding: 5px 20px 5px 0px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #021964;
+}
+
+.sign_option_facebook i {
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-right: 10px;
+    padding: 10px 10px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.sign_option_facebook a {
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+.sign_in_form h4 {
+    font-size: 1.2rem;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #d6d8da;
+    line-height: 0.1em;
+
+}
+
+.sign_in_form h4 span {
+    background-color: #ffffff;
+    color: #d6d8da;
+    padding: 0 7px;
+}
+
+
+.sign_in_form_group {
+    justify-content: center;
+    border-radius: 4px;
+    border: 1px solid #d6d8da;
+    display: flex;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.sign_in_form_group i {
+
+    font-size: 1.3rem;
+    color: #515c67;
+    padding: 8px 12px;
+}
+
+.sign_in_form_group input::placeholder {
+    color: #515c67;
+}
+
+.sign_in_form_group input {
+    background-color: #fff;
+    border-radius: 0px 4px 4px 0px;
+    border: none;
+    padding: 8px 12px;
+    outline: none;
+    width: 100%;
+}
+
+.sign_in_form_group_button button {
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: #16507d;
+    color: #ffffff;
+    padding: 8px 15px;
+    width: 70%;
+    border: none;
+}
+
+.check_group {
+    display: flex;
+    justify-content: space-between;
+    font-size: .85rem;
+    color: #515c67;
+    text-align: left;
+}
+.check_group input{
+    font-size: .85rem;
+    color: #515c67;
+}
+.check_group a{
+    color: #413a00;
+    text-decoration: none;
+}
+
+
+
+
+.sign_in_ad {
+    margin-top: 1.5rem !important;
+    background-color: #121A4A;
+    height: 400px;
+    border-radius: 0px 7px 7px 0px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 20px 15px !important;
+}
+
+.ad_logo_content {
+    display: flex;
+    align-items: center;
+}
+
+.ad_logo h1 a span {
+    padding-left: 4px;
+    color: #10F109;
+    font-size: 1.7rem;
+}
+
+.ad_logo h1 a i {
+    color: #10F109;
+    font-size: 3.2rem;
+    font-weight: 400;
+}
+
+.ad_logo h1 a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.7rem;
+}
+
+.ad_logo h1 {
+    color: #10F109;
+    line-height: 1.5rem;
+}
+
+.play_store {
+    margin: 10px 0px 20px 0px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: #16507d;
+    color: #ffffff;
+    border: none;
+}
+
+.play_store a {
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+.play_store i {
+    padding-left: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.ad_content h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 22px;
+    color: #f9f9f9;
+    margin-bottom: 15px;
+}
+
+.ad_content ul {
+    padding: 0px;
+    font-size: 0.9rem;
+    color: #e8e8e8;
+}
+
+.ad_content ul i {
+    line-height: 20px;
+    color: #9ed41b;
+    font-size: 0.9rem;
+    font-weight: 900;
+    margin-right: 2px;
+}
+
+.login_register {
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #16507d;
+    color: #ffffff;
+    padding: 8px 10px;
+    width: 60%;
+    border: none;
+}
+
+
+@media only screen and (max-width:1024px) {
+    .sign_in {
+        margin: 40px auto;
+        width: 75%;
+        position: relative;
+        overflow: hidden;
+        border-radius: 7px;
+        padding: 0px 50px;
+        align-items: center;
+    }
+
+    .sign_in_form {
+        padding: 20px 35px;
+    }
+
+    .sign_option_google {
+        padding: 5px 10px 5px 0px;
+    }
+
+    .sign_option_google i {
+        margin-right: 5px;
+        padding: 5px 10px;
+    }
+
+    .sign_option_facebook {
+        padding: 5px 10px 5px 0px;
+    }
+
+    .sign_option_facebook i {
+        padding: 10px 10px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .sign_in {
+        margin: 40px auto;
+        width: 90%;
+        position: relative;
+        overflow: hidden;
+        border-radius: 7px;
+        padding: 0px 50px;
+        align-items: center;
+    }
+
+    .sign_in_form {
+        padding: 20px 20px;
+    }
+
+    .sign_in_ad {
+        margin: 0px !important;
+    }
+
+}
+
+@media only screen and (max-width:578px) {
+    .sign_in {
+        margin: 40px auto;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        border-radius: 7px;
+        padding: 0px 50px;
+        align-items: center;
+    }
+    .sign_in  .close {
+        color: #000000;
+      }
+      .sign_in  .close:hover {
+        color: rgb(255, 255, 255);
+        background-color: #000000;
+      }
+}
+
+@media only screen and (max-width:360px) {
+    .sign_in {
+        margin: 40px auto;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        border-radius: 7px;
+        padding: 0px 50px;
+        align-items: center;
+    }
+
+    .sign_in_form {
+        padding: 10px 5px;
+    }
+
+    .sign_option_google {
+        padding: 5px 7px 5px 0px;
+        /* padding: 0px; */
+    }
+
+    .sign_option_google i {
+        margin-right: 2px;
+        padding: 5px 5px;
+    }
+
+    .sign_option_facebook {
+        padding: 5px 7px 5px 0px;
+    }
+
+    .sign_option_facebook i {
+        margin-right: 2px;
+        padding: 5px 5px;
+
+    }
+    .sign_in  .close {
+        color: #000000;
+      }
+      .sign_in  .close:hover {
+        color: rgb(255, 255, 255);
+        background-color: #000000;
+      }
+}
+
+
+
+
+  
+/* .sign_ad_section{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 300px;
+    background-color: #10ff74;
+} 
+
+  .signup_section .close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    background-color: aqua;
+    border-radius: 0px 5px  0px 5px ;
+    padding: 0px 10px;
+    z-index: 100;
+  }
+  .signup_section .close:hover {
+    color: #10ff74;
+    background-color: #333;
+  }
+
+
+  .sign_up_ad_logo h1 a span {
+    padding-left: 4px;
+    color: #16167D;
+    font-size: 1.7rem;
+}
+
+.sign_up_ad_logoh1 a i {
+    color: #16167D;
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+.sign_up_ad_logo h1 a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.sign_up_ad_logo h1 {
+    color: #16167D;
+    line-height: 1.5rem;
+} */
+
+

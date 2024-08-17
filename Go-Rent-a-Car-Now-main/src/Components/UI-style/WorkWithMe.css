@@ -1,0 +1,49 @@
+.driver_work{
+    background-image:
+            linear-gradient(45deg, 
+              rgba(10, 14, 117, 0.75), 
+              rgba(8, 38, 121, 0.75)),url('../assets/img/car-driving-wheel.webp');
+    background-position: center;
+    background-size:cover ;
+
+}
+.work_with_me {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    padding: 30px 20px;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+} 
+.work_with_img {
+   padding: 0px 0px 0px 20px ;
+    justify-content: center;
+    align-items: center;
+}
+
+.work_with_img img{
+   width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.work_with_me-title{
+    font-size: 2.8rem;
+    line-height: 65px;
+color: #fff;
+}
+
+.work_with_content button{
+    margin-top: 20px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    transition: .3s;
+    background: #fff;
+    color: #16167D;
+    font-weight: 600;
+}
+.work_with_content button:hover{
+    background: #f9a826;
+    color: #16167D;
+}
